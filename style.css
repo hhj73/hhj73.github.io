@@ -1,0 +1,60 @@
+.day {
+    position: fixed;
+    background-color: #867070;
+    top: 0px;
+    width: 1005px;
+    height: 30pt;
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'Song Myung', serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: #675D50;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #F5EBEB;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Pretendard-Thin';
+    color: #6D5D6E;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    margin: 50px 300px 0px 300px;
+    font-size: 20px;
+    border-bottom: 7px solid #B46060;
+}
+
+ol {
+    border: 1px solid #bcbcbc;
+    width: 280px;
+    margin: auto;
+
+}
+ul.mylist {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #efefef;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    border: 1px solid #444444;
+    padding: 3px;
+    background-color: #FDF7C3;
+
+}
