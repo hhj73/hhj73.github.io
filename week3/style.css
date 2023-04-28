@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    text-align:center;
+    background-color: #3A4CA8
+}
+
+.image{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom : 30px;
+}
+
+#clock{
+    width: 15%;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text-image{
+    width: 60%;
+}
+
+
+#text1 {
+    color: #FDE454;
+    font-family: 'KOTRAHOPE';
+    text-align:center;
+    font-size: 1.5em;
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9999; /* 레이어 순서 지정 맨 위로 올림 */
+    border: none;
+  }
+
+#modal-title{
+    font-family: 'KCCChassam';
+    color: #7800d3;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#modal-text{
+    font-family: 'KCCChassam';
+    color: #7800d3;
+    font-style: italic;
+}
+
+#modal-image{
+    width: 40%;
+}
+
+#modal-box{
+    font-family: 'GmarketSansMedium';
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #FCEE21;
+    color: #3A4CA8;
+    border-radius: 20px;
+    border:none;
+    text-align:center;
+    width:300px;
+    height:40px;
+    margin: 10px 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.text-image {
+    position: relative;
+}
+
+#quotes {
+    max-width: 100%; margin-top: 20px;
+}
+
+#text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFF;
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+    font-size: 1.0em;
+}
+
+#bold-text{
+    font-size: 20px;
+}
+
+#text3 {
+    text-align:center;
+    font-size: 1.0em;
+    font-family: 'GmarketSansMedium';
+    color:#FFFFFF;
+    padding:40px;
+    margin-top: 50px;
+    margin-bottom : 10px;
+}
+
+#box1, #box2{
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+    color:#000000;
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    border:none;
+}
+
+#box3{
+    font-family: 'GmarketSansMedium';
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #FCEE21;
+    color: #3A4CA8;
+    border-radius: 20px;
+    border:none;
+    text-align:center;
+    width:370px;
+    height:40px;
+}
+
+
+#click{
+    position: relative;
+    top:40px;
+}
+
+#noneDiv{
+    display: none;
+}
+
+#hiddentext{
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+    color: #FFFFFF;
+    padding:10px;
+    margin:10px;
+}
+
+#result, #result2{
+    font-family: 'GmarketSansBold';
+    font-size: 40px;
+}
+
+#box4{
+    font-family: 'GmarketSansMedium';
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #FCEE21;
+    color: #3A4CA8;
+    border-radius: 20px;
+    border:none;
+    text-align:center;
+    width:200px;
+    height:40px;
+    margin: 10px 10px;
+}
+
+#box5{
+    font-family: 'GmarketSansMedium';
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    color: #3A4CA8;
+    border-radius: 20px;
+    border:none;
+    text-align:center;
+    width:100px;
+    height:40px;
+    margin: 10px 10px;
+}
+
+#text4{
+    font-family: 'GmarketSansMedium';
+    font-size: 2px;
+    margin: 100px 100px;
+    color:#FFFFFF;
+}
