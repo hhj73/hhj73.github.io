@@ -1,0 +1,127 @@
+body{
+        background-color: #3A4CA8
+    }
+
+div {
+    text-align: center;
+}
+h3{
+    color: #FDE454;
+    font-family:fantasy;
+}
+.box1{
+   color: white;
+}
+.box2{
+    color:white;
+    font-size:13px;
+    font-weight: 500;
+}
+input[type=text] {
+    width: 210px;;
+	height: 45px;;
+	font: size 13px;;
+    border-radius: 10px;
+    border: none;
+    color: #c0c0c0;
+}
+#box3{
+    background-color: yellow;
+    color: blue;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 370px;
+    height: 40px;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+#click{
+    position: relative;
+    top:25px;
+}
+.box4{
+    font-size: 5px;
+    font-weight: 700;
+    color: white;
+}
+#hide{
+    display:none;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+
+
+}
+#box4{
+    background-color: yellow;
+    color: blue;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+#box5{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9999; /* 레이어 순서 지정 맨 위로 올림 */
+    border: none;
+  }
+
+#modal-title{
+    font-family: 'KCCChassam';
+    color: #7800d3;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#modal-text{
+    font-family: 'KCCChassam';
+    color: #7800d3;
+    font-style: italic;
+}
+
+#modal-image{
+    width: 40%;
+}
+
+#modal-box{
+    font-family: 'GmarketSansMedium';
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #FCEE21;
+    color: #3A4CA8;
+    border-radius: 20px;
+    border:none;
+    text-align:center;
+    width:300px;
+    height:40px;
+    margin: 10px 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+span {
+      font-weight: bold;
+}
